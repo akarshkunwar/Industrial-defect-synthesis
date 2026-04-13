@@ -1,0 +1,30 @@
+# Ignore heavy data
+datasets/
+DoRA_Adapters/
+centroids/
+patchcore_dataset/
+patchcore_results/
+yolo_dataset/
+*.png
+*.pth
+*.safetensors
+*.bin
+*.pt
+# Ignore python environment
+.venv/
+__pycache__/
+#ignore scripts which are not relevant to current paper
+centroid_and_coreset_builder.py
+generate_structural_defects.py
+plot_scoring_metrics.py
+structural_defect_test.py
+sam_utils.py
+test.py
+test_scripts.py
+train_DoRA_Structural.py
+Image_scorer.py
+synthetic_dataset/
+prepared_dora_data/
+prepared_dora_data_leather/
+prepared_dora_data_wood/
+runs/
