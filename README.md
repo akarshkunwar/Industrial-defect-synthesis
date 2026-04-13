@@ -7,24 +7,25 @@
 
 Welcome to the official repository for **Few-Shot Parameter-Efficient Synthesis of Industrial Textural Anomalies via Localized Diffusion and DoRA**. 
 
-This repository contains the codebase for training and evaluating Weight-Decomposed Low-Rank Adaptation (DoRA) models utilizing Stable Diffusion v1.5 Inpainting. Our localized diffusion pipeline generates high-fidelity industrial **textural anomalies** (e.g., surface stains, discoloration, fabric defects) using only a few training examples. These synthetic defects act as a powerful data augmentation strategy to improve downstream anomaly detection models like PatchCore.
-
----
-
-## 📢 Updates & Ongoing Research
-**Current Focus:** The current pipeline is optimized exclusively for **textural defects**. 
-**Future Work:** This repository is actively maintained. Our research is rapidly expanding to include structural anomalies, new material surfaces, and advanced generation techniques. Star and watch this repository to stay updated as new models and defect classes are added!
+This repository contains the codebase for training and evaluating Weight-Decomposed Low-Rank Adaptation (DoRA) models utilizing Stable Diffusion v1.5 Inpainting. Our localized diffusion pipeline generates high-fidelity industrial **textural anomalies** (e.g., surface stains, discoloration, fabric defects) using only a few training examples. These synthetic defects act as a powerful data augmentation strategy to improve downstream anomaly detection models like YOLO and patchcore.
 
 ---
 
 ## 🤗 Pre-Trained Models & Weights
-To keep this Git repository lightweight and clean, **all trained DoRA adapters and model checkpoints are hosted on Hugging Face.**
+To keep this Git repository lightweight and clean, **all trained DoRA adapters, model checkpoints, and our synthetized datasets are hosted on Hugging Face.**
 
 You can download our parameter-efficient weights here:
 👉 **[Hugging Face Model Hub: PEFT-Industrial-defect-synthesis](https://huggingface.co/akarshkunwar/PEFT-Industrial-defect-synthesis)**
 
 You can view our synthesized data here:
 👉 **[Hugging Face Dataset Hub: synthetic-dataset-industrial-defect-synthesis](https://huggingface.co/akarshkunwar/synthetic-dataset-industrial-defect-synthesis)**
+
+---
+
+## 📢 Updates & Ongoing Research
+**Current Focus:** The current pipeline is optimized exclusively for **textural defects**. 
+
+**Future Work:** This repository is actively maintained. Our research is rapidly expanding to include structural anomalies, new material surfaces, and advanced generation techniques. Star and watch this repository to stay updated as new models and defect classes are added!
 
 ---
 
