@@ -1,6 +1,7 @@
 # 🏭 Few-Shot Parameter-Efficient Synthesis of Industrial Textural Anomalies via Localized Diffusion and DoRA
 
 [![Hugging Face Models](https://img.shields.io/badge/🤗%20Hugging%20Face-Models-blue.svg)](https://huggingface.co/akarshkunwar/PEFT-Industrial-defect-synthesis)
+[![Hugging Face Datasets](https://img.shields.io/badge/🤗%20Hugging%20Face-Datasets-blue.svg)](https://huggingface.co/akarshkunwar/synthetic-dataset-industrial-defect-synthesis)
 [![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 
@@ -21,6 +22,9 @@ To keep this Git repository lightweight and clean, **all trained DoRA adapters a
 
 You can download our parameter-efficient weights here:
 👉 **[Hugging Face Model Hub: PEFT-Industrial-defect-synthesis](https://huggingface.co/akarshkunwar/PEFT-Industrial-defect-synthesis)**
+
+You can view our synthesized data here:
+👉 **[Hugging Face Dataset Hub: synthetic-dataset-industrial-defect-synthesis](https://huggingface.co/akarshkunwar/synthetic-dataset-industrial-defect-synthesis)**
 
 ---
 
