@@ -1,5 +1,4 @@
 # 🏭 Few-Shot Parameter-Efficient Synthesis of Industrial Textural Anomalies via Localized Diffusion and DoRA
-
 [![Hugging Face Models](https://img.shields.io/badge/🤗%20Hugging%20Face-Models-blue.svg)](https://huggingface.co/akarshkunwar/PEFT-Industrial-defect-synthesis)
 [![Hugging Face Datasets](https://img.shields.io/badge/🤗%20Hugging%20Face-Datasets-blue.svg)](https://huggingface.co/datasets/akarshkunwar/synthetic-dataset-industrial-defect-synthesis)
 [![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](https://opensource.org/licenses/Apache-2.0)
@@ -12,17 +11,21 @@ This repository contains the codebase for training and evaluating Weight-Decompo
 ---
 
 ## 🤗 Pre-Trained Models & Weights
+
 To keep this Git repository lightweight and clean, **all trained DoRA adapters, model checkpoints, and our synthetized datasets are hosted on Hugging Face.**
 
 You can download our parameter-efficient weights here:
+
 👉 **[Hugging Face Model Hub: PEFT-Industrial-defect-synthesis](https://huggingface.co/akarshkunwar/PEFT-Industrial-defect-synthesis)**
 
 You can view our synthesized data here:
+
 👉 **[Hugging Face Dataset Hub: synthetic-dataset-industrial-defect-synthesis](https://huggingface.co/datasets/akarshkunwar/synthetic-dataset-industrial-defect-synthesis)**
 
 ---
 
 ## 📢 Updates & Ongoing Research
+
 **Current Focus:** The current pipeline is optimized exclusively for **textural defects**. 
 
 **Future Work:** This repository is actively maintained. Our research is rapidly expanding to include structural anomalies, new material surfaces, and advanced generation techniques. Star and watch this repository to stay updated as new models and defect classes are added!
@@ -32,20 +35,32 @@ You can view our synthesized data here:
 ## ⚙️ Quickstart & Usage
 
 ### 1. Installation
+
 Clone the repository and set up your Python environment:
+
 ```bash
-git clone [https://github.com/akarshkunwar/Industrial-defect-synthesis.git](https://github.com/akarshkunwar/Industrial-defect-synthesis.git)
+git clone https://github.com/akarshkunwar/Industrial-defect-synthesis.git
 cd Industrial-defect-synthesis
 python -m venv .venv
-
 # Windows
 .venv\Scripts\activate
 # Linux/Mac
 source .venv/bin/activate
-
 pip install -r requirements.txt
+```
 
-## License
-This project is licensed under Apache 2.0. Note that use is additionally 
-governed by the licenses of key dependencies: Stable Diffusion (CreativeML 
-Open RAIL-M), YOLOv8 (AGPL-3.0), and the MVTec AD dataset (research use only).
+---
+
+## 📄 License
+
+This project is licensed under the **Apache 2.0 License** — see the [LICENSE](LICENSE) file for details.
+
+Use of this project is additionally governed by the licenses of the following key dependencies:
+
+| Dependency | License |
+|---|---|
+| Stable Diffusion v1.5 | [CreativeML Open RAIL-M](https://huggingface.co/spaces/CompVis/stable-diffusion-license) |
+| YOLOv8 (Ultralytics) | [AGPL-3.0](https://github.com/ultralytics/ultralytics/blob/main/LICENSE) |
+| MVTec AD Dataset | [Research use only](https://www.mvtec.com/company/research/datasets/mvtec-ad) |
+
+> **Note:** The MVTec AD dataset is restricted to non-commercial research use. This pipeline and any models trained with it inherit that restriction.
