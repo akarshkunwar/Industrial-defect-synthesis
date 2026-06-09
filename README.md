@@ -44,3 +44,8 @@ python -m venv .venv
 source .venv/bin/activate
 
 pip install -r requirements.txt
+
+## License
+This project is licensed under Apache 2.0. Note that use is additionally 
+governed by the licenses of key dependencies: Stable Diffusion (CreativeML 
+Open RAIL-M), YOLOv8 (AGPL-3.0), and the MVTec AD dataset (research use only).
